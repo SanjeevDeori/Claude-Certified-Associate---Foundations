@@ -1,0 +1,1790 @@
+[
+ {
+  "src": 1,
+  "stem": "A finance manager is about to discuss a confidential pre-announcement figure with Claude. Which two settings best align with sound privacy practice for this conversation?",
+  "steps": [],
+  "options": [
+   {
+    "id": "A",
+    "text": "Enable Memory contribution for the conversation so the context carries forward to support follow-up analysis in future sessions."
+   },
+   {
+    "id": "B",
+    "text": "Skip the privacy setting decision and proceed with default behavior for this particular conversation."
+   },
+   {
+    "id": "C",
+    "text": "Open the conversation in Incognito mode, which prevents the conversation from contributing to Memory and avoids persistent retention of the confidential pre-announcement figure across sessions."
+   },
+   {
+    "id": "D",
+    "text": "Treat the conversation as appropriate for default Memory settings, given the brief, one-time nature of the discussion."
+   },
+   {
+    "id": "E",
+    "text": "Enable Memory contribution if Incognito mode is not used, so the confidential figure is not retained as persistent context that could surface in later unrelated sessions."
+   }
+  ],
+  "answer": [
+   "C",
+   "E"
+  ],
+  "select": 2,
+  "type": "multi",
+  "id": 1
+ },
+ {
+  "src": 2,
+  "stem": "You are an operations lead sorting proposed Claude use cases by whether they are acceptable for your team to pursue. Which two proposed use cases are acceptable for the team to pursue with Claude?",
+  "steps": [],
+  "options": [
+   {
+    "id": "A",
+    "text": "Drafting an internal training summary from approved internal documentation."
+   },
+   {
+    "id": "B",
+    "text": "Drafting a preliminary symptom summary to support a clinician's diagnostic review."
+   },
+   {
+    "id": "C",
+    "text": "Summarizing performance review notes to determine promotion decisions across a team."
+   },
+   {
+    "id": "D",
+    "text": "Drafting a legal summary an attorney reviews before sharing with a client."
+   },
+   {
+    "id": "E",
+    "text": "Synthesizing themes across approved customer feedback under aggregation rules."
+   }
+  ],
+  "answer": [
+   "A",
+   "E"
+  ],
+  "select": 2,
+  "type": "multi",
+  "id": 2
+ },
+ {
+  "src": 3,
+  "stem": "You are a Claude associate assessing a proposed Claude use case before approving it for your team. Which is the correct order of assessment steps?",
+  "steps": [
+   "Compare the use case against the organization's policies and the relevant regulatory considerations.",
+   "Document the assessment outcome and the rationale for traceability.",
+   "Identify the audience, decision impact, and reversibility of the outputs.",
+   "Decide whether the use case proceeds, requires modification, or is declined.",
+   "Identify the data types involved and whether sensitive data is implicated."
+  ],
+  "options": [
+   {
+    "id": "A",
+    "text": "1, 3, 5, 4, 2"
+   },
+   {
+    "id": "B",
+    "text": "3, 1, 5, 4, 2"
+   },
+   {
+    "id": "C",
+    "text": "3, 5, 1, 4, 2"
+   },
+   {
+    "id": "D",
+    "text": "5, 3, 1, 4, 2"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "select": 1,
+  "type": "ordering",
+  "id": 3
+ },
+ {
+  "src": 4,
+  "stem": "You are an operations manager preparing a quick reference card for a team. Which description correctly characterizes the three Claude model tiers in general terms?",
+  "steps": [],
+  "options": [
+   {
+    "id": "A",
+    "text": "All models offer the same reasoning depth, with the lineup differing only in response speed and cost rather than capability."
+   },
+   {
+    "id": "B",
+    "text": "Haiku is the most capable model for the deepest reasoning, while Opus is the lightweight model for quick replies."
+   },
+   {
+    "id": "C",
+    "text": "Haiku is fast and lightweight, Sonnet is the balanced default for most everyday work, and Opus is the most capable for complex reasoning at higher latency and cost."
+   },
+   {
+    "id": "D",
+    "text": "Sonnet is the fastest and cheapest tier, Haiku is the balanced middle option for everyday work, and Opus handles the most complex reasoning."
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "select": 1,
+  "type": "single",
+  "id": 4
+ },
+ {
+  "src": 5,
+  "stem": "A knowledge worker is preparing to use the Gmail connector with Claude for the first time. Which statement most accurately describes the connector's behavior at the user level?",
+  "steps": [],
+  "options": [
+   {
+    "id": "A",
+    "text": "Claude searches and reads emails the user has access to in a read-only mode, and the user must compose any reply manually outside the connector."
+   },
+   {
+    "id": "B",
+    "text": "Claude searches and reads emails the user has access to and labels them according to user-defined rules, with reply drafting handled in a separate workflow."
+   },
+   {
+    "id": "C",
+    "text": "Claude searches and reads emails the user has access to and drafts replies for the user to send manually, with each action requiring explicit user approval."
+   },
+   {
+    "id": "D",
+    "text": "Claude searches and reads emails the user has access to and sends replies on the user's behalf for low-risk messages, with higher-risk messages routed to the user for approval."
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "select": 1,
+  "type": "single",
+  "id": 5
+ },
+ {
+  "src": 6,
+  "stem": "A strategy manager is reviewing a Claude-generated recommendation to consolidate the company's two regional warehouses into one. The recommendation cites three sources that estimate cost savings and one source confirming that consolidation is operationally feasible. Two of the source documents also contain estimates of one-time transition costs and a stakeholder concern about regional service levels, neither of which appears in the recommendation. Which concern is most warranted?",
+  "steps": [],
+  "options": [
+   {
+    "id": "A",
+    "text": "The recommendation is sound because every source it cites supports the consolidation conclusion, so no further review is needed."
+   },
+   {
+    "id": "B",
+    "text": "The recommendation is acceptable for an initial round, but the missing material should be added in a separate appendix rather than re-prompting the original output."
+   },
+   {
+    "id": "C",
+    "text": "The recommendation should be rejected because it relies on only four sources, which is insufficient for a decision of this size."
+   },
+   {
+    "id": "D",
+    "text": "The recommendation reflects selective use of the sources and should be re-prompted to address the transition costs and service-level concern."
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "select": 1,
+  "type": "single",
+  "id": 6
+ },
+ {
+  "src": 7,
+  "stem": "A project manager is defining how Claude can support requirements analysis for an upcoming engagement. Their team will conduct stakeholder interviews and review existing process documentation as part of discovery. Which activity fits this domain?",
+  "steps": [],
+  "options": [
+   {
+    "id": "A",
+    "text": "Use Claude to synthesize stakeholder inputs and existing process documentation into a structured list of requirements with traceability to each source."
+   },
+   {
+    "id": "B",
+    "text": "Use Claude to prioritize the requirements the team has already gathered, leaving the gathering itself to manual analyst work since prioritization is more time-consuming."
+   },
+   {
+    "id": "C",
+    "text": "Use Claude to generate a complete requirements list from the project name and a short description, since requirements for similar engagements are largely standard."
+   },
+   {
+    "id": "D",
+    "text": "Use Claude to conduct the stakeholder interviews directly, with the analyst reviewing the recordings afterward to confirm the requirements Claude extracted."
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "select": 1,
+  "type": "single",
+  "id": 7
+ },
+ {
+  "src": 8,
+  "stem": "You are a project lead reviewing a teammate's habit of using the same prompt template for every task regardless of type. Which feedback is most warranted?",
+  "steps": [],
+  "options": [
+   {
+    "id": "A",
+    "text": "The habit is reasonable because a proven template reduces prompt-writing time and most business tasks share the same structure."
+   },
+   {
+    "id": "B",
+    "text": "Task type has no effect on the appropriate prompting strategy, so a single template should perform equally well across every kind of task."
+   },
+   {
+    "id": "C",
+    "text": "The prompting strategy should be adapted to each task type because one template does not produce equally strong outputs across all tasks."
+   },
+   {
+    "id": "D",
+    "text": "The prompting strategy should change only when the desired response length needs adjusting, since other differences between tasks rarely affect the appropriate approach."
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "select": 1,
+  "type": "single",
+  "id": 8
+ },
+ {
+  "src": 9,
+  "stem": "A workflow analyst is designing a hand-off between Claude and a human reviewer in an existing process. The reviewer needs to know what to check and what is in scope for their review. Which hand-off design is most appropriate?",
+  "steps": [],
+  "options": [
+   {
+    "id": "A",
+    "text": "Define explicit criteria for what Claude produces and what the human reviewer must check before approval, documented in the workflow."
+   },
+   {
+    "id": "B",
+    "text": "Define explicit criteria for what Claude produces and leave the reviewer's checks unspecified so the reviewer can apply judgment without constraint."
+   },
+   {
+    "id": "C",
+    "text": "Use a checklist that the reviewer fills in for every output, with the checklist generated by Claude based on the specific content of each output."
+   },
+   {
+    "id": "D",
+    "text": "Allow each reviewer to determine their own review criteria based on their experience, since reviewers know best what to check in their domain."
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "select": 1,
+  "type": "single",
+  "id": 9
+ },
+ {
+  "src": 10,
+  "stem": "You are an operations lead sorting Claude-driven research tasks by which deliver the most value. Which two Claude-driven research tasks deliver the highest value in a typical analysis workflow?",
+  "steps": [],
+  "options": [
+   {
+    "id": "A",
+    "text": "Asking the model to generate representative customer quotes based on general research themes."
+   },
+   {
+    "id": "B",
+    "text": "Transcribing a recorded interview from audio notes into a structured document format."
+   },
+   {
+    "id": "C",
+    "text": "Synthesizing themes across a large set of customer interview transcripts."
+   },
+   {
+    "id": "D",
+    "text": "Reformatting a completed research deck to adjust spacing, fonts, and slide layout."
+   },
+   {
+    "id": "E",
+    "text": "Drafting a comparative summary of competing solutions from public materials."
+   }
+  ],
+  "answer": [
+   "C",
+   "E"
+  ],
+  "select": 2,
+  "type": "multi",
+  "id": 10
+ },
+ {
+  "src": 11,
+  "stem": "You are decomposing a \"build a customer journey map\" request. Which is the correct order of decomposed steps?",
+  "steps": [
+   "Identify the touchpoints the customer encounters during each stage.",
+   "Define the persona and the journey scope to be mapped.",
+   "Capture pain points and opportunities at each touchpoint.",
+   "Synthesize the findings into the final journey-map artifact.",
+   "Identify the major stages the persona moves through."
+  ],
+  "options": [
+   {
+    "id": "A",
+    "text": "2, 5, 1, 3, 4"
+   },
+   {
+    "id": "B",
+    "text": "5, 2, 1, 3, 4"
+   },
+   {
+    "id": "C",
+    "text": "2, 1, 5, 3, 4"
+   },
+   {
+    "id": "D",
+    "text": "1, 2, 5, 3, 4"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "select": 1,
+  "type": "ordering",
+  "id": 11
+ },
+ {
+  "src": 12,
+  "stem": "You are organizing connected data sources for a team and must complete the planning steps before authorizing any connection. Which two planning steps must be completed BEFORE authorizing a new Connector?",
+  "steps": [],
+  "options": [
+   {
+    "id": "A",
+    "text": "Confirm the Connector is on the approved-vendor list maintained by IT."
+   },
+   {
+    "id": "B",
+    "text": "Confirm the data classification of the source and the team's permission to use it."
+   },
+   {
+    "id": "C",
+    "text": "Confirm which reports the organization wants to migrate onto the new Connector."
+   },
+   {
+    "id": "D",
+    "text": "Plan to decommission any unused legacy connectors that may still be authorized."
+   },
+   {
+    "id": "E",
+    "text": "Train every team member on the new Connector through formal training sessions."
+   }
+  ],
+  "answer": [
+   "A",
+   "B"
+  ],
+  "select": 2,
+  "type": "multi",
+  "id": 12
+ },
+ {
+  "src": 13,
+  "stem": "The first output from Claude is partially useful but has tone and detail issues. Which two refinement actions are most likely to produce a meaningfully better output?",
+  "steps": [],
+  "options": [
+   {
+    "id": "A",
+    "text": "Ask Claude to elaborate further without adding any new tone descriptor, audience, or example to the prompt."
+   },
+   {
+    "id": "B",
+    "text": "Increase the temperature setting to introduce more variation, without changing the tone, audience, or examples in the prompt."
+   },
+   {
+    "id": "C",
+    "text": "Add a specific tone descriptor and a concrete audience to the prompt."
+   },
+   {
+    "id": "D",
+    "text": "Resubmit the same prompt several times and select the best response."
+   },
+   {
+    "id": "E",
+    "text": "Provide an example of an output that meets the desired standard."
+   }
+  ],
+  "answer": [
+   "C",
+   "E"
+  ],
+  "select": 2,
+  "type": "multi",
+  "id": 13
+ },
+ {
+  "src": 14,
+  "stem": "You are a knowledge worker reviewing a Claude-generated brief that asserts a \"well-known industry standard\" without naming any source. How should this assertion be handled?",
+  "steps": [],
+  "options": [
+   {
+    "id": "A",
+    "text": "Treat the assertion as unverified, and either source it from an authoritative reference or remove it."
+   },
+   {
+    "id": "B",
+    "text": "Flag the assertion as unverified in an internal note, but publish the brief unchanged without sourcing or removing the claim."
+   },
+   {
+    "id": "C",
+    "text": "Accept the assertion because the phrase \"well-known\" is reassuring, treating confident phrasing as a substitute for a cited source."
+   },
+   {
+    "id": "D",
+    "text": "Strengthen the assertion by adding more confident wording and presenting it as established industry consensus."
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "select": 1,
+  "type": "single",
+  "id": 14
+ },
+ {
+  "src": 15,
+  "stem": "You are an analyst reviewing a Claude response that addresses two of three required questions and skips the third. Which prompt element most likely needs strengthening?",
+  "steps": [],
+  "options": [
+   {
+    "id": "A",
+    "text": "The context provided to Claude should be expanded with additional background detail about the subject matter."
+   },
+   {
+    "id": "B",
+    "text": "The task statement should explicitly enumerate the three required questions and require an answer to each."
+   },
+   {
+    "id": "C",
+    "text": "The role assigned to Claude should be changed to a more specialized expert persona to increase response depth."
+   },
+   {
+    "id": "D",
+    "text": "The output format should be revised to allow Claude to determine the appropriate structure for each question's answer."
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "select": 1,
+  "type": "single",
+  "id": 15
+ },
+ {
+  "src": 16,
+  "stem": "An operations assistant is redesigning a recurring data processing workflow step to use Code Execution. Which two design choices best support reliable integration?",
+  "steps": [],
+  "options": [
+   {
+    "id": "A",
+    "text": "Standardize the input file format the step expects, so each run of the Code Execution step receives consistent input and produces comparable, verifiable output across recurring weekly cycles."
+   },
+   {
+    "id": "B",
+    "text": "Embed the Code Execution step inside the workflow and document the fields it produces only in code comments, without a separate reference the rest of the team can consult."
+   },
+   {
+    "id": "C",
+    "text": "Allow the input file format to vary from run to run based on whichever source system happens to supply the data that week, since the Code Execution step can adapt to differences automatically."
+   },
+   {
+    "id": "D",
+    "text": "Reduce the human review step to a brief final glance at the output before it advances to downstream consumers, treating Code Execution's internal checks as sufficient validation."
+   },
+   {
+    "id": "E",
+    "text": "Define a brief output verification step in which the human reviewer confirms the computed result against an expected range or sanity check before the output advances to downstream consumers."
+   }
+  ],
+  "answer": [
+   "A",
+   "E"
+  ],
+  "select": 2,
+  "type": "multi",
+  "id": 16
+ },
+ {
+  "src": 17,
+  "stem": "You are a knowledge manager structuring source material in the context window for a long Claude evaluation task. Which two practices produce a more effective use of the context window?",
+  "steps": [],
+  "options": [
+   {
+    "id": "A",
+    "text": "Mark each source clearly with delimiters so the model can attribute claims correctly."
+   },
+   {
+    "id": "B",
+    "text": "Mix sources together in a single block so the model can synthesize them freely."
+   },
+   {
+    "id": "C",
+    "text": "Repeat the same instruction at the start, middle, and end to reinforce it."
+   },
+   {
+    "id": "D",
+    "text": "Paste every available document into context without checking whether it is relevant to the task."
+   },
+   {
+    "id": "E",
+    "text": "Place the most reference-critical material near the beginning or end of context."
+   }
+  ],
+  "answer": [
+   "A",
+   "E"
+  ],
+  "select": 2,
+  "type": "multi",
+  "id": 17
+ },
+ {
+  "src": 18,
+  "stem": "You are a knowledge worker deciding whether to escalate a Claude-generated output. Which is the correct order of decision steps?",
+  "steps": [
+   "Identify the audience and the impact of the output if it is wrong.",
+   "Document the decision and the rationale for traceability.",
+   "Compare the output's risk profile to the organization's escalation criteria.",
+   "Decide whether to use, iterate further, or escalate.",
+   "Assess the output's accuracy, completeness, and any unverified claims."
+  ],
+  "options": [
+   {
+    "id": "A",
+    "text": "1, 3, 5, 4, 2"
+   },
+   {
+    "id": "B",
+    "text": "3, 1, 5, 4, 2"
+   },
+   {
+    "id": "C",
+    "text": "1, 5, 3, 4, 2"
+   },
+   {
+    "id": "D",
+    "text": "5, 1, 3, 4, 2"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "select": 1,
+  "type": "ordering",
+  "id": 18
+ },
+ {
+  "src": 19,
+  "stem": "You are a customer-success manager considering whether to escalate a Claude-generated response. Which factor most strongly raises the impact of the output and supports escalation before external use?",
+  "steps": [],
+  "options": [
+   {
+    "id": "A",
+    "text": "The response is an internal draft summarizing the associate's notes from a customer call for their own reference."
+   },
+   {
+    "id": "B",
+    "text": "The response is a brief internal announcement about an upcoming team all-hands meeting."
+   },
+   {
+    "id": "C",
+    "text": "The response is an unchanged draft for a paying customer that includes a service-level commitment."
+   },
+   {
+    "id": "D",
+    "text": "The response is a casual rephrasing of an internal team status update."
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "select": 1,
+  "type": "single",
+  "id": 19
+ },
+ {
+  "src": 20,
+  "stem": "As part of a workflow redesign, a process analyst is applying the AI Fluency Framework Delegation competency. Which two criteria most directly inform Delegation decisions?",
+  "steps": [],
+  "options": [
+   {
+    "id": "A",
+    "text": "The seniority of the team member who currently performs the step, since more senior roles typically involve higher-stakes tasks that warrant human retention."
+   },
+   {
+    "id": "B",
+    "text": "The reversibility of the task and the consequence of an error, which together indicate whether the step is safe to delegate to Claude or should be retained for human decision-making."
+   },
+   {
+    "id": "C",
+    "text": "The visual complexity of the workflow diagram, since steps with more connections and dependencies are more likely to require human oversight."
+   },
+   {
+    "id": "D",
+    "text": "The need for human creativity, empathy, or judgment in the step, which indicates whether the task is appropriate for AI delegation or requires the human capabilities Claude cannot provide."
+   },
+   {
+    "id": "E",
+    "text": "The length of time the workflow has existed in its current form, since well-established processes have been sufficiently validated for AI delegation."
+   }
+  ],
+  "answer": [
+   "B",
+   "D"
+  ],
+  "select": 2,
+  "type": "multi",
+  "id": 20
+ },
+ {
+  "src": 21,
+  "stem": "You are a Claude associate running an ethics review on a Claude-assisted deliverable before publication. Which is the correct order of review steps?",
+  "steps": [
+   "Confirm transparency requirements are met for the audience receiving the deliverable.",
+   "Document the review outcome and any changes made.",
+   "Identify the audience and the potential impact of the deliverable on that audience.",
+   "Make targeted revisions or escalate if a concern requires more authority to resolve.",
+   "Examine the content for unsupported generalizations, fairness concerns, and accuracy issues."
+  ],
+  "options": [
+   {
+    "id": "A",
+    "text": "3, 5, 1, 4, 2"
+   },
+   {
+    "id": "B",
+    "text": "3, 1, 5, 4, 2"
+   },
+   {
+    "id": "C",
+    "text": "1, 3, 5, 4, 2"
+   },
+   {
+    "id": "D",
+    "text": "5, 3, 1, 4, 2"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "select": 1,
+  "type": "ordering",
+  "id": 21
+ },
+ {
+  "src": 22,
+  "stem": "You are sorting Claude output structural defects by which most undermines clarity. Which structural defect most severely undermines the clarity of the output?",
+  "steps": [],
+  "options": [
+   {
+    "id": "A",
+    "text": "Typographic inconsistencies appear throughout multiple sections of the document."
+   },
+   {
+    "id": "B",
+    "text": "A single subheading is shorter than the other subheadings in the document."
+   },
+   {
+    "id": "C",
+    "text": "The main conclusion contradicts the evidence presented in the body."
+   },
+   {
+    "id": "D",
+    "text": "Two adjacent paragraphs present the same information using inconsistent terminology."
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "select": 1,
+  "type": "single",
+  "id": 22
+ },
+ {
+  "src": 23,
+  "stem": "A senior project coordinator has been asked to use Claude to produce an end-of-year report covering finance, operations, and customer outcomes. The three areas have separate data owners and separate source documents. Which decomposition approach is most likely to produce a strong report?",
+  "steps": [],
+  "options": [
+   {
+    "id": "A",
+    "text": "Draft the executive summary first to anchor the report's narrative, then draft each section so it supports the summary already written."
+   },
+   {
+    "id": "B",
+    "text": "Define the report goals, gather inputs per section, draft each section in its own prompt, then synthesize the executive summary from the drafted sections."
+   },
+   {
+    "id": "C",
+    "text": "Prompt Claude once with all source documents and request the full report, including the executive summary, in a single pass."
+   },
+   {
+    "id": "D",
+    "text": "Draft the three sections in parallel, each using a section-specific prompt, then concatenate and lightly edit the outputs into the final report."
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "select": 1,
+  "type": "single",
+  "id": 23
+ },
+ {
+  "src": 24,
+  "stem": "A Claude associate is evaluating whether to enable a Skill that was provided by an unfamiliar third party. Which two checks best support a sound trust decision?",
+  "steps": [],
+  "options": [
+   {
+    "id": "A",
+    "text": "Verify the source of the Skill against the organization's approved-Skill list before enabling it within claude.ai or any Project the team uses for its work."
+   },
+   {
+    "id": "B",
+    "text": "Skip the permissions review because the Skill's description sounds narrowly scoped to its stated purpose."
+   },
+   {
+    "id": "C",
+    "text": "Treat the Skill's appearance in a public listing as sufficient validation of its source and requested permissions."
+   },
+   {
+    "id": "D",
+    "text": "Review the permissions and capabilities the Skill requests and confirm that the requested access is appropriate for the task the Skill is intended to perform."
+   },
+   {
+    "id": "E",
+    "text": "Enable the Skill based on strong reviews from external users in public forums, treating positive community feedback as a substitute for checking the source against the organization's approved list."
+   }
+  ],
+  "answer": [
+   "A",
+   "D"
+  ],
+  "select": 2,
+  "type": "multi",
+  "id": 24
+ },
+ {
+  "src": 25,
+  "stem": "A knowledge worker notices that a Claude output may have repeated a confidential financial figure from an internal source the user was told to treat as restricted. The output has not yet been shared outside the user. Which immediate action is most appropriate?",
+  "steps": [],
+  "options": [
+   {
+    "id": "A",
+    "text": "Stop using the output, document the issue including the prompt and the source, and report it through the documented governance or incident channel."
+   },
+   {
+    "id": "B",
+    "text": "Edit the output to remove the figure, save the edited version for the intended use, and document the change in a personal log without involving the governance channel."
+   },
+   {
+    "id": "C",
+    "text": "Stop using the output and start a new chat with a more carefully scoped prompt, since the issue is resolved as long as the original output is not used."
+   },
+   {
+    "id": "D",
+    "text": "Continue using the output for the intended internal purpose, since the figure has not left the user's possession and no external disclosure has occurred."
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "select": 1,
+  "type": "single",
+  "id": 25
+ },
+ {
+  "src": 26,
+  "stem": "A knowledge worker has asked Claude to produce a one-page operating procedure. The team will edit the procedure, reuse it across multiple onboarding cycles, and update it when the underlying process changes. Which output format is most appropriate?",
+  "steps": [],
+  "options": [
+   {
+    "id": "A",
+    "text": "Generate the procedure as an Artifact, which the team can open, edit, and save as a stable reference for ongoing use."
+   },
+   {
+    "id": "B",
+    "text": "Generate the procedure as a series of numbered steps in the chat and keep the chat itself as the reference for future edits."
+   },
+   {
+    "id": "C",
+    "text": "Generate the procedure as the chat response and copy the text into the team's document store after each revision."
+   },
+   {
+    "id": "D",
+    "text": "Generate the procedure as the chat response and save the entire chat transcript to the team's document store as the working reference."
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "select": 1,
+  "type": "single",
+  "id": 26
+ },
+ {
+  "src": 27,
+  "stem": "You are a Claude associate troubleshooting a Claude response that introduces facts not present in the supplied source. Which root cause is most directly indicated?",
+  "steps": [],
+  "options": [
+   {
+    "id": "A",
+    "text": "The prompt asks for a comprehensive response, which leads Claude to fill perceived gaps with plausible-sounding but unverified detail."
+   },
+   {
+    "id": "B",
+    "text": "The prompt asks Claude to act as a researcher rather than a writer."
+   },
+   {
+    "id": "C",
+    "text": "The prompt does not constrain Claude to use only facts present in the supplied source."
+   },
+   {
+    "id": "D",
+    "text": "The prompt's heading-based structure encourages Claude to generate placeholder content under each heading even when the source doesn't cover it."
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "select": 1,
+  "type": "single",
+  "id": 27
+ },
+ {
+  "src": 29,
+  "stem": "You are a knowledge worker summarizing common prompt failure patterns for the team. Which pattern most often produces vague or off-target output?",
+  "steps": [],
+  "options": [
+   {
+    "id": "A",
+    "text": "A prompt that names the role, audience, and output format, but does not state the specific task."
+   },
+   {
+    "id": "B",
+    "text": "A prompt that names the role, task, and audience, but does not specify the required output format."
+   },
+   {
+    "id": "C",
+    "text": "A prompt that names a topic but does not state the task, audience, or required output structure."
+   },
+   {
+    "id": "D",
+    "text": "A prompt that names the task and required output format, but does not specify the intended audience."
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "select": 1,
+  "type": "single",
+  "id": 28
+ },
+ {
+  "src": 30,
+  "stem": "You are a knowledge worker evaluating which Claude feature matches each proposed use case. Which two feature-to-use-case matches are appropriate?",
+  "steps": [],
+  "options": [
+   {
+    "id": "A",
+    "text": "Tool use to invoke a calculator for rephrasing a product description in simpler language."
+   },
+   {
+    "id": "B",
+    "text": "Long-context summarization for drafting a reply to a single short customer email."
+   },
+   {
+    "id": "C",
+    "text": "Long-context summarization for a quarterly report distilled from many sources."
+   },
+   {
+    "id": "D",
+    "text": "Tool use to invoke a calculator for a complex multi-step pricing calculation."
+   },
+   {
+    "id": "E",
+    "text": "Web search invocation to retrieve the established formula for calculating compound interest."
+   }
+  ],
+  "answer": [
+   "C",
+   "D"
+  ],
+  "select": 2,
+  "type": "multi",
+  "id": 29
+ },
+ {
+  "src": 31,
+  "stem": "A knowledge worker is explaining the cost, speed, and quality trade-offs across Claude models to a colleague. Which generalization correctly describes the trade-off?",
+  "steps": [],
+  "options": [
+   {
+    "id": "A",
+    "text": "More capable models generally consume more of the rate limit and run more slowly, while lighter models are faster and consume less of the rate limit."
+   },
+   {
+    "id": "B",
+    "text": "Speed and rate-limit consumption are independent of model capability; the difference between Haiku, Sonnet, and Opus is reasoning depth alone."
+   },
+   {
+    "id": "C",
+    "text": "More capable models generally consume less of the rate limit because their reasoning is more efficient, even though they run more slowly than lighter models."
+   },
+   {
+    "id": "D",
+    "text": "Lighter models consume more of the rate limit per request than more capable models, since lighter models require multiple passes to match heavier-model quality."
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "select": 1,
+  "type": "single",
+  "id": 30
+ },
+ {
+  "src": 32,
+  "stem": "A communications manager is drafting a prompt for Claude to produce a quarterly newsletter for store managers in three regions. The agreed key messages, regional details, and a prior newsletter the team liked are all available. Which prompt approach is most likely to produce a usable first draft?",
+  "steps": [],
+  "options": [
+   {
+    "id": "A",
+    "text": "Provide the agreed key messages and the three regions, and ask Claude to choose an appropriate length and tone for store managers."
+   },
+   {
+    "id": "B",
+    "text": "Attach the prior newsletter, and ask Claude to match its tone and structure while incorporating the new key messages for the three named regions."
+   },
+   {
+    "id": "C",
+    "text": "Name the audience, the three regions, the length, the tone, and the agreed key messages, and reference the prior newsletter only as a tone example."
+   },
+   {
+    "id": "D",
+    "text": "Attach the prior newsletter and the agreed key messages, and ask Claude to produce a similar newsletter for this quarter."
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "select": 1,
+  "type": "single",
+  "id": 31
+ },
+ {
+  "src": 33,
+  "stem": "You are prioritizing optimization actions across a recurring Claude workflow. Which optimization action typically has the highest impact in a recurring knowledge workflow?",
+  "steps": [],
+  "options": [
+   {
+    "id": "A",
+    "text": "Codifying the recurring prompt into a Project with the relevant references and instructions."
+   },
+   {
+    "id": "B",
+    "text": "Updating the shared folder structure where Claude outputs are saved after each workflow run."
+   },
+   {
+    "id": "C",
+    "text": "Rewriting the most recent version of the prompt to improve its clarity for the next run."
+   },
+   {
+    "id": "D",
+    "text": "Refining the output format template used in the team's documentation to improve readability."
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "select": 1,
+  "type": "single",
+  "id": 32
+ },
+ {
+  "src": 34,
+  "stem": "A knowledge worker is defining what \"workflow optimization\" means at the Associate level for the team's recurring AI-supported workflows. Which description is most accurate?",
+  "steps": [],
+  "options": [
+   {
+    "id": "A",
+    "text": "Reducing the number of steps in the workflow to the smallest possible count, since fewer steps mean faster cycle time and lower error rates."
+   },
+   {
+    "id": "B",
+    "text": "Standardizing every step of the workflow to a fixed template so each run produces identical output, without adjusting for variation in the workflow's inputs."
+   },
+   {
+    "id": "C",
+    "text": "Reducing redundancy, removing low-value steps, and applying Claude where it adds measurable value, while keeping required reviews and quality gates."
+   },
+   {
+    "id": "D",
+    "text": "Replacing manual steps with Claude-supported steps wherever possible, since each replacement adds value by reducing the time the team spends on the workflow."
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "select": 1,
+  "type": "single",
+  "id": 33
+ },
+ {
+  "src": 35,
+  "stem": "You are a project manager weighing workflow steps by how much leverage Claude integration provides. Which workflow step typically offers the greatest Claude leverage in a knowledge-work team?",
+  "steps": [],
+  "options": [
+   {
+    "id": "A",
+    "text": "Drafting and synthesizing across many sources for a downstream reviewer."
+   },
+   {
+    "id": "B",
+    "text": "Negotiating contractual terms with external parties on behalf of the company."
+   },
+   {
+    "id": "C",
+    "text": "Approving final deliverables for external publication without further review."
+   },
+   {
+    "id": "D",
+    "text": "Making final personnel decisions about hiring, promotion, or termination."
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "select": 1,
+  "type": "single",
+  "id": 34
+ },
+ {
+  "src": 36,
+  "stem": "You are an operations lead integrating Claude into a multi-person team workflow. Which integration step should be performed first?",
+  "steps": [],
+  "options": [
+   {
+    "id": "A",
+    "text": "Identify where Claude adds value and where each handoff to a human occurs."
+   },
+   {
+    "id": "B",
+    "text": "Document the integrated workflow and onboard the rest of the team to it."
+   },
+   {
+    "id": "C",
+    "text": "Iterate the integrated workflow based on the findings from the pilot."
+   },
+   {
+    "id": "D",
+    "text": "Pilot the integrated workflow with a small group on representative work."
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "select": 1,
+  "type": "single",
+  "id": 35
+ },
+ {
+  "src": 37,
+  "stem": "Before sharing a Claude-generated brief, an analyst is applying the AI Fluency Framework Discernment competency to evaluate it. Which review best reflects Discernment principles?",
+  "steps": [],
+  "options": [
+   {
+    "id": "A",
+    "text": "Conduct a systematic check of the brief against the task requirements, source material, and professional standards before sharing it."
+   },
+   {
+    "id": "B",
+    "text": "Review the opening paragraph and the conclusion of the brief, since these sections typically reflect the quality of the full document."
+   },
+   {
+    "id": "C",
+    "text": "Accept the brief on the basis that it reads fluently and the subject matter aligns with the analyst's professional knowledge of the topic."
+   },
+   {
+    "id": "D",
+    "text": "Skip the source material check during review and rely on overall tone and logical flow as proxies for factual accuracy."
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "select": 1,
+  "type": "single",
+  "id": 36
+ },
+ {
+  "src": 38,
+  "stem": "A learning specialist is configuring a Claude Project for a recurring course-design workflow. Which configuration approach best leverages a Skill alongside other Project elements?",
+  "steps": [],
+  "options": [
+   {
+    "id": "A",
+    "text": "Add the relevant Skill to the Project, upload the supporting knowledge sources, and write custom instructions that reference both the Skill and the knowledge."
+   },
+   {
+    "id": "B",
+    "text": "Upload the supporting knowledge sources but leave the relevant Skill disabled, relying on custom instructions alone."
+   },
+   {
+    "id": "C",
+    "text": "Configure the Project with custom instructions that describe a different workflow than the one the Skill documents."
+   },
+   {
+    "id": "D",
+    "text": "Add the Skill and the supporting knowledge sources to the Project, but write custom instructions for a general use case unrelated to the recurring course-design workflow the Skill documents."
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "select": 1,
+  "type": "single",
+  "id": 37
+ },
+ {
+  "src": 39,
+  "stem": "A Claude associate is incorporating reviewer feedback that named two specific issues with a Claude-drafted brief. The rest of the brief was accepted as written. Which next step is most likely to produce a strong revision?",
+  "steps": [],
+  "options": [
+   {
+    "id": "A",
+    "text": "Address the two specific issues and add a third improvement the associate identified, since combining reviewer feedback with self-identified improvements is more efficient."
+   },
+   {
+    "id": "B",
+    "text": "Rewrite the brief from scratch incorporating the two specific issues, since starting fresh integrates the feedback more cleanly than targeted edits."
+   },
+   {
+    "id": "C",
+    "text": "Address the two specific issues directly, leave unrelated parts unchanged, and document the changes for the next review."
+   },
+   {
+    "id": "D",
+    "text": "Address the two specific issues and also revise unrelated sections to maintain a consistent voice across the brief after the edits."
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "select": 1,
+  "type": "single",
+  "id": 38
+ },
+ {
+  "src": 40,
+  "stem": "A manager is deciding what changes to make while conducting a memory maintenance review for a long-running workflow. Which two actions best support memory quality over time?",
+  "steps": [],
+  "options": [
+   {
+    "id": "A",
+    "text": "Add new context entries as needed but leave existing entries unedited to preserve continuity."
+   },
+   {
+    "id": "B",
+    "text": "Disable Memory entirely for the workflow to prevent any new entries from being created going forward."
+   },
+   {
+    "id": "C",
+    "text": "Identify and edit or delete entries that are stale, inaccurate, or no longer relevant, and add context Claude has not automatically captured but the workflow continues to need."
+   },
+   {
+    "id": "D",
+    "text": "Delete all memories as the maintenance action to ensure a clean slate, then allow Claude to rebuild context organically through subsequent workflow runs."
+   },
+   {
+    "id": "E",
+    "text": "Export the current memories as a backup before making changes, so prior context can be restored if a maintenance edit unintentionally removes information the workflow still depends on."
+   }
+  ],
+  "answer": [
+   "C",
+   "E"
+  ],
+  "select": 2,
+  "type": "multi",
+  "id": 39
+ },
+ {
+  "src": 41,
+  "stem": "You are a customer-success lead running an interactive workflow where each turn must respond quickly and the per-turn reasoning is light. Which selection best aligns to the requirements?",
+  "steps": [],
+  "options": [
+   {
+    "id": "A",
+    "text": "Choose Opus because maximizing reasoning depth on every turn produces the most reliable interactive workflow."
+   },
+   {
+    "id": "B",
+    "text": "Choose Sonnet so quality headroom is available if occasional turns need deeper reasoning."
+   },
+   {
+    "id": "C",
+    "text": "Choose Sonnet because its balanced profile better protects response quality across turns of varying difficulty."
+   },
+   {
+    "id": "D",
+    "text": "Choose Haiku to keep latency low and to handle a light reasoning load efficiently at scale."
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "select": 1,
+  "type": "single",
+  "id": 40
+ },
+ {
+  "src": 42,
+  "stem": "Working as a process consultant integrating a pre-built Skill into a recurring team workflow. Which two practices best support reliable integration?",
+  "steps": [],
+  "options": [
+   {
+    "id": "A",
+    "text": "Remove all human review from steps that invoke the Skill, relying on the Skill's packaged output as final."
+   },
+   {
+    "id": "B",
+    "text": "Define the inputs the Skill expects and the outputs the team will use, so each workflow step has clear hand-off points around the Skill."
+   },
+   {
+    "id": "C",
+    "text": "Bypass the published Skill version by using an unreleased build pulled directly from outside the approved distribution channel."
+   },
+   {
+    "id": "D",
+    "text": "Document which workflow steps invoke the Skill and what human review remains, so accountability and quality gates stay visible to the team across recurring runs."
+   },
+   {
+    "id": "E",
+    "text": "Apply the Skill outside its documented scope so the team can stretch its use across several unrelated workflow steps."
+   }
+  ],
+  "answer": [
+   "B",
+   "D"
+  ],
+  "select": 2,
+  "type": "multi",
+  "id": 41
+ },
+ {
+  "src": 43,
+  "stem": "You are using Claude to redesign an employee onboarding workflow and must complete the high-level decomposition steps before specifying detailed artifacts. Which two decomposition steps must be completed BEFORE specifying exact email content and the schedule?",
+  "steps": [],
+  "options": [
+   {
+    "id": "A",
+    "text": "Negotiate the onboarding budget with the finance department."
+   },
+   {
+    "id": "B",
+    "text": "Roll out the onboarding workflow company-wide before it has been piloted."
+   },
+   {
+    "id": "C",
+    "text": "Pilot the onboarding workflow with a small cohort of new hires."
+   },
+   {
+    "id": "D",
+    "text": "Identify the major phases of the onboarding experience."
+   },
+   {
+    "id": "E",
+    "text": "Define the overall objective of the onboarding experience."
+   }
+  ],
+  "answer": [
+   "D",
+   "E"
+  ],
+  "select": 2,
+  "type": "multi",
+  "id": 42
+ },
+ {
+  "src": 44,
+  "stem": "You are a project manager reviewing stakeholder messages that teammates have drafted about Claude's role in a workflow. Which two messages are appropriate for stakeholder communication about Claude?",
+  "steps": [],
+  "options": [
+   {
+    "id": "A",
+    "text": "A statement that Claude will handle every task without any human involvement."
+   },
+   {
+    "id": "B",
+    "text": "A statement of the limits and known failure modes of Claude's role in the workflow."
+   },
+   {
+    "id": "C",
+    "text": "A reassurance that \"the AI is taking care of it.\""
+   },
+   {
+    "id": "D",
+    "text": "A statement that the model does not make meaningful errors and needs no quality review."
+   },
+   {
+    "id": "E",
+    "text": "A description of where Claude assists and where humans retain decisions."
+   }
+  ],
+  "answer": [
+   "B",
+   "E"
+  ],
+  "select": 2,
+  "type": "multi",
+  "id": 43
+ },
+ {
+  "src": 45,
+  "stem": "You are running an optimization pass on a recurring workflow. Which is the correct order of optimization steps?",
+  "steps": [
+   "Apply targeted optimization to the bottleneck step.",
+   "Roll out the optimized workflow to the broader team and document the change.",
+   "Identify the bottleneck step using measured time per step and queue length.",
+   "Map the current workflow steps, owners, and decision points.",
+   "Pilot the change with a small group and measure the effect against the prior baseline."
+  ],
+  "options": [
+   {
+    "id": "A",
+    "text": "4, 1, 3, 5, 2"
+   },
+   {
+    "id": "B",
+    "text": "3, 4, 1, 5, 2"
+   },
+   {
+    "id": "C",
+    "text": "1, 4, 3, 5, 2"
+   },
+   {
+    "id": "D",
+    "text": "4, 3, 1, 5, 2"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "select": 1,
+  "type": "ordering",
+  "id": 44
+ },
+ {
+  "src": 46,
+  "stem": "An analyst is working in a long Claude conversation. The conversation contains roughly 60 turns covering an initial requirements analysis, several rounds of data review, and a current drafting phase. Recent responses have started to drift from the agreed requirements. Which step most directly addresses the drift while preserving the analyst's progress?",
+  "steps": [],
+  "options": [
+   {
+    "id": "A",
+    "text": "Open a new chat and paste only the current draft, then continue refining it there without the prior requirements and data-review context."
+   },
+   {
+    "id": "B",
+    "text": "Summarize the agreed requirements, the key data findings, and the current draft state, then continue in the same chat by reasserting the summary as the working context."
+   },
+   {
+    "id": "C",
+    "text": "Move the source data and the requirements into a Project knowledge base, then continue the drafting work in a new chat inside that Project."
+   },
+   {
+    "id": "D",
+    "text": "Switch the conversation to a model with a larger context window so the accumulated history no longer causes drift and continue without restructuring the inputs."
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "select": 1,
+  "type": "single",
+  "id": 45
+ },
+ {
+  "src": 47,
+  "stem": "Preparing an AI-assisted work product for external delivery, a senior manager is applying the AI Fluency Framework Diligence competency. Which step best reflects Diligence principles?",
+  "steps": [],
+  "options": [
+   {
+    "id": "A",
+    "text": "Identify the sections of the work product that read as inconsistent or unfamiliar and verify those sections, treating the smoothly written sections as reliable."
+   },
+   {
+    "id": "B",
+    "text": "Deliver the work product, treating the AI assistance itself as sufficient assurance of accuracy for external delivery."
+   },
+   {
+    "id": "C",
+    "text": "Identify the elements of the work product that must be independently verified or corrected before delivery, and take ownership of those verifications as a professional accountability obligation."
+   },
+   {
+    "id": "D",
+    "text": "Place accountability for the AI-assisted work product with Claude itself, treating the tool as the responsible party for the deliverable."
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "select": 1,
+  "type": "single",
+  "id": 46
+ },
+ {
+  "src": 48,
+  "stem": "You are reviewing a Claude-generated report whose tone is confident throughout. Which question best separates plausibility from verification?",
+  "steps": [],
+  "options": [
+   {
+    "id": "A",
+    "text": "Can each specific claim be traced to a credible source or to the supplied input material?"
+   },
+   {
+    "id": "B",
+    "text": "Does the response use varied sentence structure across sections, independent of whether any claim in it can actually be verified?"
+   },
+   {
+    "id": "C",
+    "text": "Does the response cover the topic comprehensively based on its length and section count?"
+   },
+   {
+    "id": "D",
+    "text": "Does the response open with a clear, well-framed statement of the main finding?"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "select": 1,
+  "type": "single",
+  "id": 47
+ },
+ {
+  "src": 49,
+  "stem": "A marketing associate is drafting Project custom instructions for a brand-voice writing workspace. The workspace will be used by several writers, and outputs need to be consistent across writers and chats. Which approach is most likely to produce consistent outputs across many chats?",
+  "steps": [],
+  "options": [
+   {
+    "id": "A",
+    "text": "State Claude's role, the brand-voice attributes, and the audience; leave terminology to a glossary in the Project knowledge base rather than in the custom instructions."
+   },
+   {
+    "id": "B",
+    "text": "State Claude's role and provide a sample piece of approved brand-voice writing in the custom instructions, since one strong example carries the brand voice better than written rules."
+   },
+   {
+    "id": "C",
+    "text": "State Claude's role and the brand-voice attributes; let each writer specify the audience, tone constraints, and terminology requirements per chat to keep the configuration flexible."
+   },
+   {
+    "id": "D",
+    "text": "State Claude's role, summarize the brand-voice attributes, name the audience, list tone constraints, and require alignment with the brand's terminology."
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "select": 1,
+  "type": "single",
+  "id": 48
+ },
+ {
+  "src": 50,
+  "stem": "Your conversation context has grown long, and the model is producing inconsistent outputs. Which context-management step should be performed first?",
+  "steps": [],
+  "options": [
+   {
+    "id": "A",
+    "text": "Switch to a different model in the hope that the new model handles long context better."
+   },
+   {
+    "id": "B",
+    "text": "Summarize the prior conversation into a concise statement of the current state."
+   },
+   {
+    "id": "C",
+    "text": "Start a fresh conversation and repaste only the essential prior context."
+   },
+   {
+    "id": "D",
+    "text": "Continue the existing conversation and hope the model recovers consistency."
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "select": 1,
+  "type": "single",
+  "id": 49
+ },
+ {
+  "src": 51,
+  "stem": "You are a business analyst evaluating a Claude-generated business case against the agreed acceptance criteria. Which is the correct order of evaluation steps?",
+  "steps": [
+   "Compare the business case to the source data and required topics.",
+   "Document gaps and inaccuracies for follow-up or correction.",
+   "Restate the acceptance criteria for the business case.",
+   "Decide whether to use the business case, iterate, or escalate.",
+   "Read the business case end to end to form an initial impression."
+  ],
+  "options": [
+   {
+    "id": "A",
+    "text": "3, 5, 1, 2, 4"
+   },
+   {
+    "id": "B",
+    "text": "5, 3, 1, 2, 4"
+   },
+   {
+    "id": "C",
+    "text": "3, 1, 5, 2, 4"
+   },
+   {
+    "id": "D",
+    "text": "1, 3, 5, 2, 4"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "select": 1,
+  "type": "ordering",
+  "id": 50
+ },
+ {
+  "src": 52,
+  "stem": "A customer success associate is drafting a prompt that asks Claude to summarize a customer issue from the case file. The case file includes the customer's full government identifier, home address, name, account number, and the description of the issue. The summary the associate needs is about the issue. Which approach is most appropriate?",
+  "steps": [],
+  "options": [
+   {
+    "id": "A",
+    "text": "Replace the government identifier with the customer's name and the home address with the account number, since names and account numbers are less sensitive than identifiers and addresses."
+   },
+   {
+    "id": "B",
+    "text": "Submit the full case file and include an instruction telling Claude not to reference the government identifier or the home address in the summary."
+   },
+   {
+    "id": "C",
+    "text": "Submit only the description of the issue and add the customer's name for context, since the description plus a name is sufficient to produce a summary."
+   },
+   {
+    "id": "D",
+    "text": "Remove or redact the government identifier and the home address before submitting the prompt, since neither is necessary for a summary of the issue."
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "select": 1,
+  "type": "single",
+  "id": 51
+ },
+ {
+  "src": 53,
+  "stem": "You are a product manager asking Claude to produce an interactive prototype of a small landing-page mockup the team will iterate on and share. Which Claude feature is best suited to this output?",
+  "steps": [],
+  "options": [
+   {
+    "id": "A",
+    "text": "A new Project containing only the team's prior meeting notes."
+   },
+   {
+    "id": "B",
+    "text": "A short conversational reply embedded inline in the chat history."
+   },
+   {
+    "id": "C",
+    "text": "A Research run that produces a multi-page external survey of competitor sites."
+   },
+   {
+    "id": "D",
+    "text": "An Artifact, which presents standalone editable content in a dedicated side panel for iteration."
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "select": 1,
+  "type": "single",
+  "id": 52
+ },
+ {
+  "src": 54,
+  "stem": "A project lead is evaluating a Claude-generated status report against the project charter. The report will be delivered to a steering committee, which expects accurate status against committed milestones. Which set of criteria provides the strongest evaluation frame?",
+  "steps": [],
+  "options": [
+   {
+    "id": "A",
+    "text": "A match to the prior status report's structure, since the steering committee expects consistent reporting from period to period."
+   },
+   {
+    "id": "B",
+    "text": "Accuracy of facts against the charter, completeness against required reporting fields, and relevance to the audience receiving the report."
+   },
+   {
+    "id": "C",
+    "text": "Length, formatting consistency, and tone appropriateness for a steering committee audience."
+   },
+   {
+    "id": "D",
+    "text": "Readability, narrative flow, and whether the report tells a coherent story about the project's progress."
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "select": 1,
+  "type": "single",
+  "id": 53
+ },
+ {
+  "src": 55,
+  "stem": "A procurement manager is evaluating a Claude-generated vendor proposal summary against the original RFP. The RFP lists twelve numbered requirements across pricing, security, and service levels. How should the summary be checked for completeness?",
+  "steps": [],
+  "options": [
+   {
+    "id": "A",
+    "text": "Spot-check three random requirements from the RFP against the summary, since random sampling is the standard completeness check for summaries."
+   },
+   {
+    "id": "B",
+    "text": "Map each numbered requirement in the RFP to a section of the summary and confirm that each requirement is represented."
+   },
+   {
+    "id": "C",
+    "text": "Read the summary end to end and confirm it reads as a coherent response to the RFP, since coherent summaries typically reflect coverage of the source."
+   },
+   {
+    "id": "D",
+    "text": "Compare the section headings in the summary to the section headings in the RFP, since matching headings indicate matching content."
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "select": 1,
+  "type": "single",
+  "id": 54
+ },
+ {
+  "src": 56,
+  "stem": "You are configuring a new Claude Project for a specific recurring workload. Which Project configuration step should be performed first?",
+  "steps": [],
+  "options": [
+   {
+    "id": "A",
+    "text": "Add reference materials and instructions that the Project will rely on."
+   },
+   {
+    "id": "B",
+    "text": "Test the configured Project on a representative request from the workload."
+   },
+   {
+    "id": "C",
+    "text": "Define the purpose of the Project and the recurring tasks it must support."
+   },
+   {
+    "id": "D",
+    "text": "Invite collaborators to the Project and confirm the appropriate access levels."
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "select": 1,
+  "type": "single",
+  "id": 55
+ },
+ {
+  "src": 57,
+  "stem": "A knowledge worker is explaining the purpose of an organizational AI governance framework to a colleague. Which description is most accurate?",
+  "steps": [],
+  "options": [
+   {
+    "id": "A",
+    "text": "A governance framework defines the training every employee must complete before using AI tools, with separate requirements for each tool the organization licenses."
+   },
+   {
+    "id": "B",
+    "text": "A governance framework documents the AI policies the organization is legally required to adopt, focusing on regulatory compliance rather than day-to-day use."
+   },
+   {
+    "id": "C",
+    "text": "A governance framework defines approved tools, allowed data, required reviews, and reporting paths so AI is used consistently and accountably."
+   },
+   {
+    "id": "D",
+    "text": "A governance framework lists the AI tools the organization licenses and the cost of each, so users can pick the most cost-effective tool for each task."
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "select": 1,
+  "type": "single",
+  "id": 56
+ },
+ {
+  "src": 58,
+  "stem": "A business analyst has been asked to use Claude to extract requirements from a recorded stakeholder interview transcript. The transcript is approximately 90 minutes long and covers multiple topics. Which approach is most likely to produce a usable structured output?",
+  "steps": [],
+  "options": [
+   {
+    "id": "A",
+    "text": "Provide the transcript and ask Claude to produce a chronological list of every statement that contains a verb, then classify each statement as a requirement or not."
+   },
+   {
+    "id": "B",
+    "text": "Provide the transcript along with a structured prompt that requests must-haves, nice-to-haves, open questions, and conflicts as separate sections."
+   },
+   {
+    "id": "C",
+    "text": "Provide the transcript and ask Claude to summarize it; extract requirements from the summary in a second pass since two passes catch more detail."
+   },
+   {
+    "id": "D",
+    "text": "Provide the transcript and ask Claude to produce a single ranked list of requirements, since a single list is easier for stakeholders to review than separate sections."
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "select": 1,
+  "type": "single",
+  "id": 57
+ },
+ {
+  "src": 59,
+  "stem": "You are setting up a Connector for a shared data source that several colleagues will use. Which Connector setup step should be performed first?",
+  "steps": [],
+  "options": [
+   {
+    "id": "A",
+    "text": "Document the Connector's purpose and the appropriate use cases for the team."
+   },
+   {
+    "id": "B",
+    "text": "Connect the data source and confirm the authentication is working as expected."
+   },
+   {
+    "id": "C",
+    "text": "Use the Connector in a representative task to evaluate its real-world utility."
+   },
+   {
+    "id": "D",
+    "text": "Confirm the Connector is approved and the data classification is appropriate."
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "select": 1,
+  "type": "single",
+  "id": 58
+ }
+]
